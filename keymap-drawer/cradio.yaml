@@ -1,0 +1,190 @@
+layout: {qmk_keyboard: ferris/sweep}
+layers:
+  default:
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ;
+  - {t: A, h: LEFT GUI}
+  - {t: R, h: LEFT ALT}
+  - {t: S, h: LEFT SHIFT}
+  - {t: T, h: LCTRL}
+  - G
+  - M
+  - {t: N, h: RCTRL}
+  - {t: E, h: RIGHT SHIFT}
+  - {t: I, h: RIGHT ALT}
+  - {t: O, h: RIGHT GUI}
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - ','
+  - .
+  - /
+  - {t: TAB, h: num}
+  - {t: ENTER, h: nav}
+  - {t: SPACE, h: sym}
+  - BSPC
+  nav:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '{'
+  - '}'
+  - (
+  - )
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LEFT ARROW
+  - DOWN ARROW
+  - UP ARROW
+  - RIGHT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '['
+  - ']'
+  - '>'
+  - <
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  sym:
+  - ''
+  - ''
+  - '*'
+  - '&'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '"'
+  - ^
+  - '%'
+  - $
+  - +
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '~'
+  - '#'
+  - '@'
+  - '!'
+  - '|'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  num:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '4'
+  - '5'
+  - '6'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  tri:
+  - '&sys_reset'
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '0'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&sys_reset'
+  - '&bootloader'
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '1'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - {t: BT, h: '2'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - {type: held}
+  - ''
+combos:
+- p: [10, 19]
+  k: ESCAPE
+  l: [default]
+- p: [3, 6]
+  k: '-'
+  l: [default]
+- p: [23, 26]
+  k: _
+  l: [default]
+- p: [20, 29]
+  k: '&caps_word'
+  l: [default]
